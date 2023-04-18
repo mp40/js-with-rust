@@ -1,0 +1,14 @@
+{
+  "name": "js-with-rust",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mp40/js-with-rust.git",
+  "author": "mp40 <philps.matthew@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
