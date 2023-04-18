@@ -1,13 +1,13 @@
 {
-    "parser": "eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 12,
-      "sourceType": "module"
-    },
-    "extends": ["eslint:recommended"],
-    "env": {
-      "es2021": true,
-      "node": true,
-      "jest": true
-    }
+  "parser": "eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended"],
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest": true
   }
+}
