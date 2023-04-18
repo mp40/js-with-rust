@@ -1,5 +1,5 @@
 import { wiringTest } from ".";
 
 test("test wiring", () => {
-    expect(wiringTest()).toBe("working")
-})
+  expect(wiringTest()).toBe("working");
+});

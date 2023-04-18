@@ -1,3 +1,3 @@
 export function wiringTest() {
-    return "working";
+  return "working";
 }
