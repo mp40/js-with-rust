@@ -1,5 +1,5 @@
 #[no_mangle]
-pub extern fn find_nth(n:i64) -> i64 {
+pub extern fn find_nth(n:i32) -> i32 {
     if n == 0 {
         return 0;
     }
