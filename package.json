@@ -10,7 +10,10 @@
     "node": "16.19.0"
   },
   "scripts": {
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "test-rs": "cd ./rs/fib && cargo test",
+    "build-release-rs": "cd ./rs/fib && cargo build --release",
+    "compare": "node index.js"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.21.4",
