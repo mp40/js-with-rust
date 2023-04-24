@@ -35,3 +35,8 @@ test("it returns 6765 for 20th position in sequence", () => {
   const result = 6765;
   expect(findNth(input)).toBe(result);
 });
+
+test("it returns 8944394323791464 for 78th position in sequence", () => {
+  const input = 78;
+  expect(findNth(input)).toBe(8944394323791464);
+});

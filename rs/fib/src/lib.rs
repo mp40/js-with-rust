@@ -1,5 +1,5 @@
 #[no_mangle]
-pub extern fn find_nth(n:i32) -> i32 {
+pub extern fn find_nth(n:i64) -> i64 {
     if n == 0 {
         return 0;
     }
@@ -56,4 +56,10 @@ fn test_fourth_position() {
 fn test_twentieth_position() {
     let result = find_nth(20);
     assert_eq!(result, 6765);
+}
+
+#[test]
+fn test_max_safe_integer() {
+    let result = find_nth(78);
+    assert_eq!(result, 8944394323791464)
 }

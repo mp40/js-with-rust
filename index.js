@@ -16,15 +16,15 @@ function run() {
   console.timeEnd("getNth 20 RS");
   console.log("RS Get 20 Result > ", rsResult20);
 
-  console.time("getNth 100 JS");
-  const jsResult100 = findNth(100);
-  console.timeEnd("getNth 100 JS");
-  console.log("JS Get 100 Result > ", jsResult100);
+  console.time("getNth 78 JS");
+  const jsResult78 = findNth(78);
+  console.timeEnd("getNth 78 JS");
+  console.log("JS Get 100 Result > ", jsResult78);
 
-  console.time("getNth 100 RS");
-  const rsResult100 = lib.find_nth(100);
-  console.timeEnd("getNth 100 RS");
-  console.log("RS Get 100 Result > ", rsResult100);
+  console.time("getNth 78 RS");
+  const rsResult78 = lib.find_nth(78);
+  console.timeEnd("getNth 78 RS");
+  console.log("RS Get 100 Result > ", rsResult78);
 }
 
 run();
