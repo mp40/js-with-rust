@@ -1,5 +1,7 @@
 ## js-with-rust
 
+Assumes node 16.19.0 and rust installed on machine.
+
 #### install node modules
 
 ```
