@@ -34,7 +34,7 @@ yarn compare
 
 ### Notes
 
-Works fine with smaller numbers, but not larger.
+Works fine with smaller numbers, but not larger.<br/>
 Example compare result:
 
 ```
