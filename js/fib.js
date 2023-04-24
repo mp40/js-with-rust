@@ -18,3 +18,11 @@ export function findNth(n) {
 
   return prev1 + prev2;
 }
+
+export function findNthRecursive(n) {
+  if (n < 2) {
+    return n;
+  }
+
+  return findNthRecursive(n - 1) + findNthRecursive(n - 2);
+}
