@@ -2,7 +2,7 @@ import ffi from "ffi-napi";
 import { findNth } from "./js/fib.js";
 
 const lib = ffi.Library("./rs/fib/target/release/libfind_nth", {
-  find_nth: ["int", ["int"]],
+  find_nth: ["long", ["long"]],
 });
 
 /*
